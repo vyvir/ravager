@@ -12,7 +12,6 @@ Clone the repository:
 
 ```
 git clone --recursive https://github.com/vyvir/ravager
-
 ```
 
 Enter the PAK3 directory:
