@@ -32,6 +32,12 @@ Go back to parent directory:
 cd ..
 ```
 
+Create 'build' directory:
+
+```
+mkdir -p build
+```
+
 Build the pk3:
 
 ```
