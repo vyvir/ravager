@@ -11,7 +11,7 @@ sudo zypper in make nodejs-common
 Clone the repository:
 
 ```
-git clone https://github.com/vyvir/ravager
+git clone --recursive https://github.com/vyvir/ravager
 
 ```
 
