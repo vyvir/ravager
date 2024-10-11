@@ -1,17 +1,69 @@
-# Saxa and Luigi's Murder Mystery
+# Ravager
+Ravager is a SRB2 gamemode.
 
-Saxa and Luigi's Murder Mystery was made as a mode to counter LeoTM and how strict he is with his Murder Mystery. We do not have any intent to overthrow him, this is an entirely different thing.
+## How to build it?
 
-This mode is 100% re-usable, even LeoTM can steal the code from here.
+Install the following dependencies (These are for OpenSUSE, yours may vary):
+```
+sudo zypper in make nodejs-common
+```
 
-## Why this was made.
-Me and my friends got tired of LeoTM's mode, from the OST, to the un-necessary things. We didn't make this to compete, we made this as an alternative for people who also don't like Leo's mode.
+Clone the repository:
+
+```
+git clone https://github.com/vyvir/ravager
+
+```
+
+Enter the PAK3 directory:
+
+```
+cd ravager ; cd PAK3
+```
+
+Install PAK3 dependencies:
+
+```
+npm install
+```
+
+Go back to parent directory:
+
+```
+cd ..
+```
+
+Build the pk3:
+
+```
+make
+```
+
+Test the newly built pk3:
+
+```
+make runlinux
+```
+
+Build and test the newly built pk3:
+
+```
+make buildrunlinux
+```
 
 ## How can I help?
 If you can code, try making a pull request for something you want!
-If you can do art, compose, etc. Hit me up at **@literally_mario on Discord!**
+If you can do art, compose, etc. Hit me up at **@vyvim on Discord!**
 
-## Is there an Discord server?
-Yes! https://discord.gg/J6yzyJV8Ta
+## Credit
+- Ravager by [vyvir](https://github.com/vyvir)
 
-You'll be pinged whenever I'm hosting the mod, you can also contribute directly, and more!
+- [Saxa and Luigi's Murder Mystery](https://github.com/Saxashitter/murder-mystery) by [Saxashitter](https://github.com/Saxashitter), [luigi budd](https://github.com/luigi-budd), [Unmatched Bracket](https://github.com/UnmatchedBracket), and [Jisk](https://github.com/Jiskster)
+
+- [PAK3](https://github.com/UnmatchedBracket/PaK3) by [Unmatched Bracket](https://github.com/UnmatchedBracket)
+
+- [Pico's Handbag (Pico Day 2021)](https://www.newgrounds.com/audio/listen/1027918) by [larrynachos](https://larrynachos.newgrounds.com/) / [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+
+- [Gritty Metal Loop](https://www.newgrounds.com/audio/listen/945062) by [VoytekPavlik](https://www.newgrounds.com/audio/listen/945062) / [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+
+- [URBAN ONSLAUGHT II](https://www.newgrounds.com/audio/listen/1275333) by [AcidHydra101](https://www.newgrounds.com/audio/listen/1275333) / [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) / Edited from original

@@ -2,3 +2,6 @@ build/
 PaK3
 PaK3/
 .vscode/
+.README.md.kate-swp
+.directory
+package-lock.json
